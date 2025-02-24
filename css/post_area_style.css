@@ -1,0 +1,117 @@
+.quadradjinho {
+    background-color: #343a40;
+    width: 98%; 
+    height: 90%; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+    scrollbar-color: blue;
+    -ms-overflow-style: none;
+    padding: 70px; 
+    color: white;
+
+}
+
+.quadradjinho::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in Chrome, Edge, Safari */
+}
+
+@media (max-width: 768px) {
+    .quadradjinho {
+        width: 95%; 
+        height: 70vh; 
+    }
+}
+
+@media (max-width: 576px) {
+    .quadradjinho {
+        width: 100%; 
+        height: 60vh;
+    }
+}
+
+
+.post-container {
+    width: 100%;
+    max-width: 1000px; /* Keeps it proportional */
+    margin: 0 auto;
+}
+
+/* Post Styling */
+.post {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Header */
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+/* Image Section */
+.post-image img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Footer */
+.post-footer {
+    padding: 10px;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 8px;
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.icon.liked {
+    color: #e1306c; /* Instagram-like red */
+}
+
+.icon.disliked {
+    color: #585858; /* Neutral grey */
+}
+
+.timestamp {
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+.counter {
+    margin-top: 5px;
+    margin-left: 1px;
+    font-size: 1rem;
+    font-weight: bold;
+}

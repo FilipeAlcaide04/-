@@ -1,0 +1,122 @@
+.message-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.my-message {
+    justify-content: flex-end;
+    text-align: right;
+    margin-left: auto;
+}
+
+.message {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 75%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.my-message .message {
+    align-items: flex-end;
+}
+
+.username {
+    font-weight: bold;
+    color: #ffc108;
+}
+
+.my-username {
+    font-weight: bold;
+    color: #ff8000;
+}
+
+.text {
+    color: #333;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #888;
+    text-align: right;
+    margin-top: 2px;
+}
+
+.chat-media {
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    object-fit: contain; /* Evita cortes estranhos */
+}
+
+/* Específico para vídeos */
+.chat-video {
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 8px;
+
+}
+
+/* Caixa de chat */
+.chat-box {
+    height: 560px;
+    overflow-y: auto;
+    border: none;
+    background: #343a40;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Botões de Upload e Enviar - Iguais */
+/* Estilo dos botões de anexar e enviar */
+.chat-btn {
+    background: #ffc107;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+/* Efeito de hover */
+.chat-btn:hover {
+    background: #ff9800;
+}
+
+/* Ajuste no input-group para alinhar os botões */
+.input-group {
+    display: flex;
+    align-items: center;  /* Garante alinhamento vertical */
+    gap: 5px;
+}
+
+/* Ajuste do botão de anexar para ficar na mesma linha */
+.upload-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+}
+
+/* Esconder o input de arquivo */
+#file-input {
+    display: none;
+}
+
+

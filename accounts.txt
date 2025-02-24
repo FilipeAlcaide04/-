@@ -1,0 +1,12 @@
+Email: admin@admin.pt              | Password:admin
+Email: filipe@gmail.com            | Password:123
+------------------------------------
+Email: joana.silva@example.com     | Password: 123456
+Email: miguel.pereira@example.com  | Password: 123
+Email: ana.monteiro@example.com    | Password: 123
+Email: carlos.oliveira@example.com | Password: 123
+Email: beatriz.sousa@example.com   | Password: 123
+Email: ricardo.alves@example.com   | Password: 123
+
+mail: filipe.alcaide.escola@gmail.com
+senha- mail - kpqz mkxb ijql nzjh
