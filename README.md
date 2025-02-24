@@ -1,6 +1,6 @@
 #📱 Rede Social - TintII
 
-Este é um projeto de Rede Social desenvolvido em **PHP** e **JavaScript**, focado em proporcionar uma experiência dinâmica e interativa para os usuários.
+Este é um projeto de Rede Social desenvolvido em **PHP** e **JavaScript** para a cadeira de TintII (Tecnologias da internet II), focado em proporcionar uma experiência dinâmica e interativa para aos users.
 
 ## ✨ Funcionalidades
 
