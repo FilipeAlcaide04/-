@@ -5,7 +5,7 @@ Este é um projeto de Rede Social desenvolvido em **PHP** e **JavaScript**, foca
 ## ✨ Funcionalidades
 
 ### 📌 Sistema de Login:
-- Cadastro e login de usuários com envio de **e-mail de confirmação**.
+- Cadastro e login de clientes com envio de **e-mail de confirmação**.
 - Registro de **horários e usuários** que acessaram o sistema.
 
 ### 📝 Posts:
